@@ -8,6 +8,78 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <h1>Address Book</h1>
+    <div class="container">
+      <h1>Address Book</h1>
+        <h4>Please fill out the form below:</h4>
+          <form id="textfield">
+            <div class="form-group">
+              <label for="name">Put your first and last name:</label>
+              <input id="name" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="address">Put your address:</label>
+              <input id="address" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="phone">Put your phone-number (with area code):</label>
+              <input id="phone" class="form-control" type="tel">
+            </div>
+            <div class="form-group">
+              <label for="email">Put your email address:</label>
+              <input id="email" class="form-control" type="email">
+            </div>
+          </form>
+        <h4>Select your current healthcare provider:</h4>
+          <select class="form-control" id="beverage">
+            <option value="1">Coffee + Water = Healthplan?</option>
+            <option value="2">Your Choice Health Plan</option>
+            <option value="3">Your Choice+ Health Plan</option>
+            <option value="4">Your Choice+ Silver Premium Plan</option>
+            <option value="5">Our Choice Standard Plan</option>
+          </select>
+
+          <div class="form-group">
+            <label for="color">What is your favorite color?</label>
+            <input id="color" class="form-control" type="color">
+          </div>
+          
+
+        <div class="radio">
+          <h4>Favorite Spice Girl:</h4>
+          <label>
+            <input type="radio" name="spice" value="scary" checked>
+            Scary
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="spice" value="sporty">
+            Sporty
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="spice" value="posh">
+            Posh
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="spice" value="ginger">
+            Ginger
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="spice" value="baby">
+            Baby
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label for="born">Date of birth:</label>
+          <input id="born" class="form-control" type="date">
+        </div>
+    </div>
   </body>
 </html>
